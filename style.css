@@ -18,7 +18,7 @@
 }
 
 body {
-  background: linear-gradient(180deg, #87ceeb 0%, #b0e0e6 50%, #e0f6ff 100%);
+  
   font-family: "Noto Serif JP", serif;
   min-height: 100vh;
   padding-top: 70px;
@@ -37,7 +37,7 @@ body::before {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  opacity: 0.16;
+  opacity: 1;
   pointer-events: none;
   z-index: 0;
 }
