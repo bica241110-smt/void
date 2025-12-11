@@ -18,11 +18,15 @@
 }
 
 body {
-  background: linear-gradient(180deg, #87ceeb 0%, #b0e0e6 50%, #e0f6ff 100%)
+  background: linear-gradient(180deg, #ffffff 0%, #b0e0e6 50%, #cdf1ff 100%);
   font-family: "Noto Serif JP", serif;
   min-height: 100vh;
   padding-top: 70px;
   position: relative;
+}
+
+.auth_data{
+  display:none;
 }
 
 body::before {
@@ -37,7 +41,7 @@ body::before {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  opacity: 1;
+  opacity: 0.15;
   pointer-events: none;
   z-index: 0;
 }
@@ -198,7 +202,7 @@ body::before {
   margin-bottom: 1.5em;
   text-align: center;
   font-weight: 700;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
   letter-spacing: 0.1em;
 }
 
