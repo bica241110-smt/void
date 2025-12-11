@@ -20,12 +20,17 @@
         padding: 20px;
       }
 
-      .description {
+         .description {
         text-align: center;
         color: #2c3e50;
+        background-color: rgba(255, 255, 255, 0.1);
         font-size: 1.1rem;
         line-height: 1.8;
         margin-bottom: 2em;
+        padding: 1.5em;
+        border-radius: 12px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 15px rgba(255, 255, 255, 0);
       }
 
       #passwordInput {
@@ -85,10 +90,12 @@
   <body>
     <section id="room-auth" class="section fade-in">
       <h2 class="section-title">🔐 部屋割表の確認</h2>
+      
       <p class="description">
         こちらのページでは、研修旅行の<strong>部屋割表</strong>を確認できます。<br />
         閲覧にはパスワードが必要です。
       </p>
+    
 
       <div class="card" style="max-width: 380px; margin: 20px auto; padding: 25px">
         <input
